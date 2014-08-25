@@ -1,0 +1,21 @@
+
+/**
+ * Millennial Media logo.
+ */
+
+.logo[data-logo="Millennial Media"] {
+  width: 5.44502078597355em;
+}
+
+.logo[data-logo="Millennial Media"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Millennial Media"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Millennial Media"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
